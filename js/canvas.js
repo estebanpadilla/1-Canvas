@@ -1,3 +1,10 @@
+/*
+What is the canvas.
+How to create a canvas.
+How to set canvas properties and style.
+What is the 2d context.
+*/
+
 window.addEventListener('load', init, false);
 function init() {
 
