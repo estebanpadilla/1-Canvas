@@ -1,0 +1,23 @@
+{
+  "name": "1-canvas",
+  "version": "1.0.0",
+  "description": "Introduction to the html canvas tag.",
+  "main": "server.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanpadilla/1-canvas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estebanpadilla/1-canvas/issues"
+  },
+  "homepage": "https://github.com/estebanpadilla/1-canvas#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
