@@ -19,11 +19,11 @@ function init() {
     canvas.style.position = 'absolute';
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    canvas.style.background = '#ee3344';
+    canvas.style.background = '#2b0d3b';
 
     //Gett the 2d context from the canvas
     context = canvas.getContext('2d');
 
-    context.fillStyle = 'yellow';
-    context.fillRect(100, 100, 100, 100);
+    context.fillStyle = '#ee3344';
+    context.fillRect(50, 50, 100, 100);
 }
