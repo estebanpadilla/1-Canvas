@@ -10,20 +10,20 @@ window.addEventListener('load', init, false);
 
 function init() {
 
-    var canvas = null;
-    var context = null;
-
     //Create the canvas object amd add it to the document body.
-    canvas = document.createElement('canvas');
+    let canvas = document.createElement('canvas');
     document.body.appendChild(canvas);
-    canvas.style.position = 'absolute';
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-    canvas.style.background = '#2b0d3b';
 
     //Gett the 2d context from the canvas
-    context = canvas.getContext('2d');
+    let context = canvas.getContext('2d');
 
-    context.fillStyle = '#ee3344';
-    context.fillRect(50, 50, 100, 100);
+    // context.beginPath()
+    context.fillStyle = 'red';
+    context.rect(50, 50, 100, 100);
+    context.fill();
+
+    context.fillStyle = 'yellow';
+    context.fillRect(170, 50, 100, 100);
 }

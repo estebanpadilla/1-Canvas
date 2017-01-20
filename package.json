@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Introduction to the html canvas tag.",
   "scripts": {
-    "start": "browser-sync start --s --f *.js, *.html, *.css"
+    "start": "browser-sync start --s --f app.js, index.html, ./css/style.css"
   },
   "repository": {
     "type": "git",
